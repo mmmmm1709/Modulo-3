@@ -1,0 +1,9 @@
+Ejemplo de JSON que un ciudadano podría enviar para reportar una incidencia:
+
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+Este reporte llegaría al servidor a través de la ruta POST /incidencia
+y el servidor respondería confirmando que la incidencia fue registrada.

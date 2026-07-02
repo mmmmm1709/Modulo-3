@@ -1,0 +1,15 @@
+Al enviar una petición POST a /registro con el siguiente JSON:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+El servidor responde con:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto confirma que el servidor recibe correctamente los datos enviados
+en formato JSON y los devuelve organizados en la respuesta.
